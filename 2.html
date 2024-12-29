@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        .table{
+            border-collapse: collapse;
+            margin: 20px;
+            border: 5px solid black;
+        }
+
+        .header{
+            background-color: rgb(165, 213, 255);
+            padding: 10px;
+        }
+
+        .body{
+            font-family : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        .color{
+            background-color: rgb(144, 255, 172);
+            padding: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<body class="body">
+    <center>
+    <table class="table" border="1" style="width: 50%; text-align: center;">
+        <tr id="mar">
+            <th colspan="9">TIME TABLE</th>
+        </tr>
+
+        <tr class="header" id="mar">
+            <th>Time/Day</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>Lunch Break</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+        </tr>
+
+        <tr class="first" id="mar">
+            <td class="color">Monday</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td colspan="2" style="background-color: rgb(212, 151, 123);">Lab</td>
+            <td rowspan="6">Lunch Break</td>
+            <td>Maths</td>
+            <td>English</td>
+        </tr>
+
+        <tr class="second">
+            <td class="color">Tuesday</td>
+            <td style="background: #78f3e6;">Elective</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+        </tr>
+
+        <tr class="third">
+            <td class="color">Wednesday</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+        </tr>
+
+        <tr class="fourth">
+            <td class="color">Thursday</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+        </tr>
+
+        <tr class="fifth">
+            <td class="color">Friday</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+        </tr>
+
+        <tr class="sixth">
+            <td class="color">Saturday</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td style="background: #78f3e6;">Elective</td>
+            <td>Maths</td>
+            <td>Science</td>
+        </tr>
+
+        <tr>
+            <th colspan="8">END OF WEEK</th>
+        </tr>
+
+    </table>
+</center>
+</body>
+</html>
